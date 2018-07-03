@@ -10,7 +10,7 @@ setup(
     version='0.1.9',
     description="""Customised Tensorflow Serving API produced by coffeedjimmy""",
     # long_description=io.open("README.md", 'r', encoding="utf-8").read(),
-    url='https://github.com/coffeedjimmy/tf_serving_client.git',
+    url='https://github.com/coffeedjimmy/tf-serving-client.git',
     license='Apache 2.0',
     keywords="TensorFlow Serving API libraries",
     author='Jimmy Woo',
