@@ -3,11 +3,11 @@
 
 import io
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='tf-serving-client',
-    version='0.1.0',
+    version='0.1.6',
     description="""Customised Tensorflow Serving API produced by coffeedjimmy""",
     # long_description=io.open("README.md", 'r', encoding="utf-8").read(),
     url='https://github.com/coffeedjimmy/tf-serving-client.git',
@@ -15,7 +15,7 @@ setup(
     keywords="TensorFlow Serving API libraries",
     author='Jimmy Woo',
     author_email='coffeedjimmy@gmail.com',
-    packages=['tensorflow_serving'],
+    packages=find_packages('.'),
     install_requires=[
         'grpcio>=1.7.0',
         'numpy>=1.12.0'

@@ -1,6 +1,6 @@
 .DS_Store
 build/
 dist/
-tf_serving_client_python3.egg-info/
+tf_serving_client.egg-info/
 .idea
 __pycache__/
