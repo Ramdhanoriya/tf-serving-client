@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='tf-serving-client',
-    version='0.1.6',
+    version='0.1.7',
     description="""Customised Tensorflow Serving API produced by coffeedjimmy""",
     # long_description=io.open("README.md", 'r', encoding="utf-8").read(),
     url='https://github.com/coffeedjimmy/tf-serving-client.git',
